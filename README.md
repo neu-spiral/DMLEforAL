@@ -36,7 +36,7 @@ cd dmle
 pip install -r requirements.txt
 ```
 
-📂 Repository Structure
+## 📂 Repository Structure
 ```
 dmle/
 │
@@ -50,7 +50,7 @@ dmle/
 └── requirements.txt          # Python dependencies
 ```
 
-📊 Experiments
+## 📊 Experiments
 
 DMLE has been evaluated on:
 
@@ -62,7 +62,7 @@ Comparison with the traditional maximum likelihood estimation (IMLE) and the sta
 
 Results demonstrate that DMLE enhances parameter estimation and accelerates learning in active learning settings where sample selection introduces dependencies among data points.
 
-📚 Citation
+## 📚 Citation
 
 If you use this code in your research, please cite our paper:
 

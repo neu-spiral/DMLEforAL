@@ -26,6 +26,22 @@ DMLE focuses solely on improving **parameter estimation**; it does not modify th
 
 ---
 
+### 📂 Repository Structure
+```
+dmle/
+│
+├── b_py_combined.bash          # Combined Bash script for preprocessing or setup
+├── execute_combined_cpu.bash   # Script to execute experiments on CPU
+├── data.py                     # Dataset loading and preprocessing
+├── main.py                     # Main script to run experiments
+├── model.py                    # Model definitions
+├── plot_results_submission.py  # Script to plot the results
+├── print_results_submission.py # Script to print the results
+├── utils.py                    # Utility functions (metrics, helper routines)
+├── README.md                   # This file
+└── requirements.txt            # Python dependencies
+```
+
 ### 🧪 Installation
 
 Clone this repository:
@@ -54,20 +70,6 @@ pip install -r requirements.txt
   
 - **Other datasets**: Automatically downloaded via Keras/TensorFlow dataset repositories; no additional downloads are needed.
 
-
-### 📂 Repository Structure
-```
-dmle/
-│
-├── b_py_combined.bash        # Combined Bash script for preprocessing or setup
-├── execute_combined_cpu.bash # Script to execute experiments on CPU
-├── data.py                   # Dataset loading and preprocessing
-├── main.py                   # Main script to run experiments
-├── model.py                  # Model definitions
-├── utils.py                  # Utility functions (metrics, helper routines)
-├── README.md                 # This file
-└── requirements.txt          # Python dependencies
-```
 
 ### 📊 Experiments
 

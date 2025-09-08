@@ -4,7 +4,7 @@ This repository contains the code and resources for the **DMLE (Dependency-aware
 
 ---
 
-## 📖 Overview
+### 📖 Overview
 
 Traditional active learning methods typically assume that samples are independent when estimating model parameters. This assumption is often violated in practice, especially under **cyclic or sequential active learning**, which can lead to inaccurate parameter estimates.  
 
@@ -17,7 +17,7 @@ DMLE focuses solely on improving **parameter estimation**; it does not modify th
 
 ---
 
-## ⚙️ Features
+### ⚙️ Features
 
 - Explicitly models sample dependencies in active learning.
 - Compatible with a wide range of active learning strategies.
@@ -26,7 +26,7 @@ DMLE focuses solely on improving **parameter estimation**; it does not modify th
 
 ---
 
-## 🧪 Installation
+### 🧪 Installation
 
 Clone this repository:
 
@@ -36,7 +36,7 @@ cd dmle
 pip install -r requirements.txt
 ```
 
-## 📂 Repository Structure
+### 📂 Repository Structure
 ```
 dmle/
 │
@@ -50,19 +50,19 @@ dmle/
 └── requirements.txt          # Python dependencies
 ```
 
-## 📊 Experiments
+### 📊 Experiments
 
 DMLE has been evaluated on:
 
-Synthetic datasets to demonstrate the impact of sample dependencies in cyclic active learning.
+- Synthetic datasets to demonstrate the impact of sample dependencies in cyclic active learning.
 
-Real-world classification tasks showing improved model performance with fewer labeled samples.
+- Real-world classification tasks showing improved model performance with fewer labeled samples.
 
-Comparison with the traditional maximum likelihood estimation (IMLE) and the statistical bias mitigation approach proposed by Farquhar et al. (2021).
+- Comparison with the traditional maximum likelihood estimation (IMLE) and the statistical bias mitigation approach proposed by Farquhar et al. (2021).
 
 Results demonstrate that DMLE enhances parameter estimation and accelerates learning in active learning settings where sample selection introduces dependencies among data points.
 
-## 📚 Citation
+### 📚 Citation
 
 If you use this code in your research, please cite our paper:
 

@@ -36,6 +36,25 @@ cd dmle
 pip install -r requirements.txt
 ```
 
+### 🚀 Running Experiments & Datasets
+
+#### Scripts for Reproducing Paper Results
+
+- **`main.py`**: Run this script to reproduce the results presented in the paper.  
+- **`plot_results_submission.py`**: Generate accuracy plots from experiment results.  
+- **`print_results_submission.py`**: Print the accuracy values at a specific active learning cycle.  
+
+#### Datasets
+
+- **SVHN**: Download the data matrix and place it in the same folder: [SVHN data](http://ufldl.stanford.edu/housenumbers/).  
+
+- **EMNIST**: Preprocessing takes time initially. Use the `load_data` function the first time to create numpy files. For subsequent runs, load the prepared data from these numpy files. The saving/loading code is commented accordingly during each step.  
+
+- **Tiny-Imagenet**: Download the data and place it in the same folder: [Tiny-Imagenet data](https://www.kaggle.com/datasets/nikhilshingadiya/tinyimagenet200). Preprocessing takes time initially. Use the `load_data` function the first time to create numpy files. For subsequent runs, load the prepared data from these numpy files. The saving/loading code is commented accordingly during each step.
+  
+- **Other datasets**: Automatically downloaded via Keras/TensorFlow dataset repositories; no additional downloads are needed.
+
+
 ### 📂 Repository Structure
 ```
 dmle/

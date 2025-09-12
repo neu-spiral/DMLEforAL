@@ -125,6 +125,11 @@ DMLE has been evaluated on:
 
 Results demonstrate that DMLE enhances parameter estimation and accelerates learning in active learning settings where sample selection introduces dependencies among data points.
 
+<!-- Add results image -->
+<p align="center">
+  <img src="assets/results.png" alt="DMLE Results" width="750"/>
+</p>
+
 ---
 
 ### Citation

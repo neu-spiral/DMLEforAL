@@ -107,9 +107,9 @@ Results demonstrate that DMLE enhances parameter estimation and accelerates lear
 If you use this code in your research, please cite our paper:
 
 ```
-@article{your2025dmle,
+@article{dmleforal,
   title={Dependency-aware Maximum Likelihood Estimation for Active Learning},
-  author={Your Name, Co-author Name},
+  author={Beyza Kalkanli, Tales Imbiriba, Stratis Ioannidis, Deniz Erdogmus, Jennifer Dy},
   journal={TMLR},
   year={2025}
 }

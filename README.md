@@ -4,11 +4,11 @@
   <tr>
     <td align="center">
       <img src="assets/dmle_gif_.gif" width="248" alt="DMLE Pipeline" /><br>
-      <small>Active learning selecting <br>150 samples using DMLE for <br>model parameter updates</small>
+      <small>Active learning with DMLE for <br>model parameter updates, <br>selecting 150 samples</small>
     </td>
     <td align="center">
       <img src="assets/imle_gif_.gif" width="248" alt="IMLE Pipeline" /><br>
-      <small>Active learning selecting <br>150 samples using IMLE for <br>model parameter updates</small>
+      <small>Active learning with IMLE for <br>model parameter updates, <br>selecting 150 samples</small>
     </td>
     <td align="center">
       <img src="assets/true_gif_.gif" width="248" alt="Passive Learning" /><br>

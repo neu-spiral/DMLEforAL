@@ -54,11 +54,25 @@ pip install -r requirements.txt
 
 ### Running Experiments & Datasets
 
-#### Scripts for Reproducing Paper Results
+**`main.py`**: Run this script to reproduce the results presented in the paper.  
+**`plot_results_submission.py`**: Generate accuracy plots from experiment results.  
+**`print_results_submission.py`**: Print the accuracy values at a specific active learning cycle.  
 
-- **`main.py`**: Run this script to reproduce the results presented in the paper.  
-- **`plot_results_submission.py`**: Generate accuracy plots from experiment results.  
-- **`print_results_submission.py`**: Print the accuracy values at a specific active learning cycle.  
+You can run experiments directly with:
+
+```bash
+python main.py $init_size $num_queries $num_cycles $temperature $seed $selection $strategy $dataset $obj
+```
+where the arguments are:
+* `init_size`: Initial labeled set size.
+* `num_queries`: Number of samples queried per cycle.
+* `num_cycles`: Number of active learning cycles.
+* `temperature`: Temperature parameter for sampling.
+* `seed`: Random seed for reproducibility.
+* `selection`: Sampling method.
+* `strategy`: Active learning strategy (e.g., entropy, least confident, margin, BALD, coreset, etc.).
+* `dataset`: Dataset name (e.g., SVHN, EMNIST, Tiny-Imagenet).
+* `obj`: Objective function to optimize (e.g., DMLE, IMLE, etc.).
 
 #### Datasets
 

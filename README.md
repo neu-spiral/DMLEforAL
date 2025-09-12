@@ -4,7 +4,7 @@ This repository contains the code and resources for the **DMLE (Dependency-aware
 
 ---
 
-### 📖 Overview
+### Overview
 
 Traditional active learning methods typically assume that samples are independent when estimating model parameters. This assumption is often violated in practice, especially under **cyclic or sequential active learning**, which can lead to inaccurate parameter estimates.  
 
@@ -17,7 +17,7 @@ DMLE focuses solely on improving **parameter estimation**; it does not modify th
 
 ---
 
-### ⚙️ Features
+### Features
 
 - Explicitly models sample dependencies in active learning.
 - Compatible with a wide range of active learning strategies.
@@ -26,7 +26,7 @@ DMLE focuses solely on improving **parameter estimation**; it does not modify th
 
 ---
 
-### 📂 Repository Structure
+### Repository Structure
 ```
 dmle/
 │
@@ -42,7 +42,7 @@ dmle/
 └── requirements.txt            # Python dependencies
 ```
 
-### 🧪 Installation
+### Installation
 
 Clone this repository:
 
@@ -52,7 +52,7 @@ cd dmle
 pip install -r requirements.txt
 ```
 
-### 🚀 Running Experiments & Datasets
+### Running Experiments & Datasets
 
 #### Scripts for Reproducing Paper Results
 
@@ -71,7 +71,7 @@ pip install -r requirements.txt
 - **Other datasets**: Automatically downloaded via Keras/TensorFlow dataset repositories; no additional downloads are needed.
 
 
-### 📊 Experiments
+### Experiments
 
 DMLE has been evaluated on:
 
@@ -83,7 +83,7 @@ DMLE has been evaluated on:
 
 Results demonstrate that DMLE enhances parameter estimation and accelerates learning in active learning settings where sample selection introduces dependencies among data points.
 
-### 📚 Citation
+### Citation
 
 If you use this code in your research, please cite our paper:
 

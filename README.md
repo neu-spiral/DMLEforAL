@@ -58,6 +58,7 @@ DMLEforAL/
 ├── README.md                   # This file
 └── requirements.txt            # Python dependencies
 ```
+---
 
 ### Installation
 
@@ -68,6 +69,8 @@ git clone https://github.com/yourusername/dmle.git
 cd dmle
 pip install -r requirements.txt
 ```
+
+---
 
 ### Running Experiments & Datasets
 
@@ -107,6 +110,8 @@ where the arguments are:
 - To change the **model architecture**, modify `model.py`.  
 - To apply the **DMLE parameter estimation fix**, use the functions provided in `utils.py`.  
 
+---
+
 ### Experiments
 
 DMLE has been evaluated on:
@@ -118,6 +123,8 @@ DMLE has been evaluated on:
 - Comparison with the traditional maximum likelihood estimation (IMLE) and the statistical bias mitigation approach proposed by Farquhar et al. (2021).
 
 Results demonstrate that DMLE enhances parameter estimation and accelerates learning in active learning settings where sample selection introduces dependencies among data points.
+
+---
 
 ### Citation
 

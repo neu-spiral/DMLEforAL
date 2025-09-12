@@ -17,7 +17,7 @@
   </tr>
 </table>
 
-This repository contains the code and resources for the **DMLE (Dependency-aware Maximum Likelihood Estimation)** approach, as introduced in our recent paper. DMLE addresses mismatches in the **sample independence assumption** in active learning by explicitly modeling **natural dependencies between samples** during model parameter estimation, while remaining fully compatible with standard active learning workflows.
+This is the official repository for the paper **[Dependency-aware Maximum Likelihood Estimation for Active Learning](https://arxiv.org/abs/2503.05969)** published at **TMLR 2025**. It contains the code and resources for the **DMLE (Dependency-aware Maximum Likelihood Estimation)** approach, as introduced in our paper. DMLE addresses mismatches in the **sample independence assumption** in active learning by explicitly modeling **natural dependencies between samples** during model parameter estimation, while remaining fully compatible with standard active learning workflows.
 
 ---
 

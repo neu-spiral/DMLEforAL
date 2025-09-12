@@ -28,7 +28,7 @@ DMLE focuses solely on improving **parameter estimation**; it does not modify th
 
 ### Repository Structure
 ```
-dmle/
+DMLEforAL/
 │
 ├── b_py_combined.bash          # Combined Bash script for preprocessing or setup
 ├── execute_combined_cpu.bash   # Script to execute experiments on CPU
@@ -107,7 +107,7 @@ Results demonstrate that DMLE enhances parameter estimation and accelerates lear
 If you use this code in your research, please cite our paper:
 
 ```
-@article{dmleforal,
+@article{DMLEforAL2025,
   title={Dependency-aware Maximum Likelihood Estimation for Active Learning},
   author={Beyza Kalkanli, Tales Imbiriba, Stratis Ioannidis, Deniz Erdogmus, Jennifer Dy},
   journal={TMLR},

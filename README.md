@@ -3,15 +3,15 @@
 <table align="center">
   <tr>
     <td align="center">
-      <img src="assets/dmle_gif_.gif" width="250" alt="DMLE Pipeline" /><br>
+      <img src="assets/dmle_gif_.gif" width="248" alt="DMLE Pipeline" /><br>
       <small>Active learning selecting <br>150 samples using DMLE for <br>model parameter updates</small>
     </td>
     <td align="center">
-      <img src="assets/imle_gif_.gif" width="250" alt="IMLE Pipeline" /><br>
+      <img src="assets/imle_gif_.gif" width="248" alt="IMLE Pipeline" /><br>
       <small>Active learning selecting <br>150 samples using IMLE for <br>model parameter updates</small>
     </td>
     <td align="center">
-      <img src="assets/true_gif_.gif" width="250" alt="Passive Learning" /><br>
+      <img src="assets/true_gif_.gif" width="248" alt="Passive Learning" /><br>
       <small>Passive learning<br>using all 700 samples<br>&nbsp;</small>
     </td>
   </tr>

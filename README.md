@@ -70,6 +70,11 @@ pip install -r requirements.txt
   
 - **Other datasets**: Automatically downloaded via Keras/TensorFlow dataset repositories; no additional downloads are needed.
 
+#### Customization
+
+- To change **datasets**, modify `data.py`.  
+- To change the **model architecture**, modify `model.py`.  
+- To apply the **DMLE parameter estimation fix**, use the functions provided in `utils.py`.  
 
 ### Experiments
 

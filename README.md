@@ -47,6 +47,7 @@ DMLE focuses solely on improving **parameter estimation**; it does not modify th
 ```
 DMLEforAL/
 │
+├── assets/                     # Images and GIFs used in README and experiments
 ├── b_py_combined.bash          # Combined Bash script for preprocessing or setup
 ├── execute_combined_cpu.bash   # Script to execute experiments on CPU
 ├── data.py                     # Dataset loading and preprocessing

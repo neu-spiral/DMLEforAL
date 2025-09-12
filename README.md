@@ -1,5 +1,11 @@
 ## Dependency-aware Maximum Likelihood Estimation for Active Learning
 
+<p float="left">
+  <img src="assets/dmle_gif_.gif" width="330" alt="DMLE Pipeline" />
+  <img src="assets/imle_gif_.gif" width="330" alt="IMLE Pipeline" />
+  <img src="assets/true_.png" width="330" alt="Passive Learning" />
+</p>
+
 This repository contains the code and resources for the **DMLE (Dependency-aware Maximum Likelihood Estimation)** approach, as introduced in our recent paper. DMLE addresses mismatches in the **sample independence assumption** in active learning by explicitly modeling **natural dependencies between samples** during model parameter estimation, while remaining fully compatible with standard active learning workflows.
 
 ---

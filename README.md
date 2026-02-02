@@ -66,7 +66,7 @@ DMLEforAL/
 Clone this repository:
 
 ```bash
-git clone https://github.com/yourusername/dmle.git
+git clone https://github.com/neu-spiral/dmle.git
 cd dmle
 pip install -r requirements.txt
 ```
